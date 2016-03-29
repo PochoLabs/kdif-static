@@ -1,0 +1,24 @@
+<!DOCTYPE html><html lang="en"><head><title>Fondation Haitienne de Rehabilitation | FONHARE</title><link rel="stylesheet" href="css/theme.css"><link rel="shortcut icon" href="img/favicon.png" type="image/x-icon"><meta name="viewport" content="width=device-width, initial-scale=1"></head><body><nav role="navigation" class="navbar navbar-inverse navbar-top"><div class="container"><div class="navbar-header"><button type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" class="navbar-toggle"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a href="/fonhare-wireframe/" class="navbar-brand serving">FONHARE</a></div><div id="bs-example-navbar-collapse-1" class="collapse navbar-collapse"><ul class="nav navbar-nav navbar-right home-nav"><li><a href="/fonhare-wireframe/" class="serving">Home</a></li><li class="dropdown"><a href="#" data-toggle="dropdown" class="dropdown-toggle">About<span class="caret"></span><ul role="menu" class="dropdown-menu"><li><a href="/fonhare-wireframe/staff" class="serving">Staff</a></li><li><a href="/fonhare-wireframe/financial" class="serving">Financial Information</a></li><li><a href="/fonhare-wireframe/partners" class="serving">Partners</a></li></ul></a></li><li class="dropdown"><a href="#" data-toggle="dropdown" role="button" aria-haspopup="true" class="dropdown-toggle">Programs<span class="caret"></span><ul class="dropdown-menu"><li><a href="/fonhare-wireframe/sponsor-a-therapist" class="serving">Sponsor a Therapist</a></li></ul></a></li><li class="dropdown"><a href="#" data-toggle="dropdown" class="dropdown-toggle">Contact<span class="caret"></span><ul class="dropdown-menu"><li><a href="/fonhare-wireframe/headquarters" class="serving">Headquarters</a></li><li><a href="/fonhare-wireframe/haiti" class="serving">Haiti</a></li></ul></a></li><li class="dropdown"><a href="#" data-toggle="dropdown" class="dropdown-toggle"> 
+Get Involved<span class="caret"></span><ul role="menu" class="dropdown-menu"><li><a href="/fonhare-wireframe/sponsor-a-therapist" class="serving">Sponsor a Therapist</a></li><li><a href="/fonhare-wireframe/volunteer" class="serving">Volunteer</a></li></ul></a></li><li><a href="/fonhare-wireframe/donate" style="color:#fff;" class="btn btn-success serving">Donate</a></li></ul></div></div></nav><h1>FONHARE Wireframe</h1><p>A custom wireframe for FONHARE</p>
+<h3>Development Workflow</h3><p>Make sure you have the following installed:</p>
+<ol>
+<li>Node</li>
+<li>NPM</li>
+<li>Bower</li>
+<li>Gulp</li>
+<li>Harp.js</li>
+<li>Sass</li>
+</ol>
+<h4>Initial Setup</h4><pre><code>npm install
+</code></pre><pre><code>bower install
+</code></pre><pre><code>gulp copy-assets
+</code></pre><h4>While Developing</h4><p>This setup takes advantage of Harp.js to serve locally. In the root directory run:</p>
+<pre><code>harp server
+</code></pre><h4>Preparinp for GitHub Pages</h4><p>Once you have developed to a point you feel comfortable publishing, follow this Workflow:</p>
+<ol>
+<li>Stop Harp server <code>Ctrl + C</code></li>
+<li>Switch to gh-pages branch</li>
+<li><code>harp compile ./ html/</code></li>
+<li>Move the html from &#39;html&#39; to the root of the directory</li>
+<li>Change referenced css from <code>_sass/_theme.scss</code> to <code>css/theme.css</code>.</li>
+</ol><script src="src/js/jquery.min.js"></script><script src="src/js/bootstrap.js"></script><script src="src/js/bootstrap-sprockets.js"></script><script src="src/js/jquery.slim.js"></script><script src="src/js/navigation.js"></script><script src="src/js/owl.carousel.js"></script><script src="src/js/skip-link-focus-fix.js"></script><script src="src/js/main.js"></script></body></html>

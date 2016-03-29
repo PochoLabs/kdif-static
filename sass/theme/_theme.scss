@@ -1,0 +1,124 @@
+// This is an empty scss file for your custom styles - Please add your super duper awesome mega design styles here
+
+// Top Bar section
+#top-bar{
+	background: #171717;
+	color: #e2e2e2;
+	font-size: 0.7em;
+	padding: 4px;
+	& p{
+		margin-bottom: 0px;
+	}
+
+}
+
+.languages{
+	& a{
+		font-size: 0.8em;
+	}
+}
+// -----------------------
+// Site Logo
+
+#site-logo{
+	margin: 20px auto;
+}
+
+
+// -----------------------
+
+.img-center{
+	margin: 0 auto;
+}
+
+.section{
+    background: #3c3c3c;
+    height: 500px;
+    margin: 18px auto;
+    cursor: pointer;
+		background-size:contain;
+		background-repeat:no-repeat;
+		background-position: center;
+		& h2{
+			font-size: 2em;
+	    padding-top: 4.5em;
+	    padding-bottom: 50px;
+	    text-align: center;
+	    color: #ccc;
+		}
+		& p {
+			color: #ccc;
+			text-align: center;
+		}
+}
+
+.section-box{
+	background: rgba(0, 0, 0, 0.6);
+	width: 100%;
+	height: 100%;
+}
+
+a.section{
+    text-align: center;
+    height: 100%;
+    width: 100%;
+}
+
+.stat-row .lead{
+	min-height: 100px;
+	margin: auto;
+}
+
+.stat{
+	font-size: 3em;
+	background-color: #aaa;
+	color: #fff;
+	border-radius: 10px;
+}
+
+// Footer section
+
+#main-footer{
+	background: #2b2b2b;
+	color: #e2e2e2;
+	& h3{
+		color: #ccc;
+		font-weight: lighter;
+		& > span{
+			color: #61a5e9;
+			font-weight: 600;
+		}
+	}
+	& #footer-social-media{
+		color: #fff;
+		clear: both;
+		width: auto;
+		margin: 0px auto;
+		& li {
+			list-style: none;
+			display: inline;
+			margin: 0px 3px;
+		}
+		& i{
+			color: #fff;
+		}
+	}
+
+	padding: 20px;
+}
+
+#footer-credits {
+	background: #171717;
+	padding: 10px;
+	& p {
+		color: #ccc;
+	}
+}
+
+
+// Helper Classes
+
+.page-pad{
+	padding-bottom: 20px;
+	padding-top: 20px;
+}

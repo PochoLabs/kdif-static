@@ -1,0 +1,126 @@
+doctype
+html(lang="en")
+	head
+		title Fondation Haitienne de Rehabilitation | FONHARE
+		link(rel="stylesheet" href="sass/theme.css")
+		link(rel="shortcut icon", href="img/favicon.png", type="image/x-icon")
+		meta(name="viewport", content="width=device-width, initial-scale=1")
+	body
+		#top-bar.hidden-xs
+			.container
+				.row
+					.col-sm-4
+						p 1093 S Main St. City, ST 00000
+					.col-sm-4
+						p 555-555-555
+					.col-sm-4
+						p email@us.com
+
+		#site-logo
+			.container
+				.row
+					.col-sm-6.col-md-9
+						img.img-responsive(src="img/LogoFONHAREWEB2copy.png", alt="FONHARE")
+					.col-sm-6.col-md-3
+						ul.nav.navbar-nav.navbar-right.languages.text-center
+							li
+								a(href="#") English
+							li
+								a(href="#") Francais
+							li
+								a(href="#") Espa&ntilde;ol
+
+
+		nav.navbar.navbar-default.navbar-top(role="navigation")
+			div.container
+				div.navbar-header
+					button.navbar-toggle(type="button", data-toggle="collapse", data-target="#home-nav")
+						span.sr-only Toggle navigation
+						span.icon-bar
+						span.icon-bar
+						span.icon-bar
+					//- a.navbar-brand.serving(href="/fonhare-wireframe/") FONHARE
+
+				div.collapse.navbar-collapse(id="home-nav")
+
+					ul.nav.navbar-nav.home-nav
+						li
+							a.serving(href="/fonhare-wireframe/") Home
+						li.dropdown
+							a.dropdown-toggle(href="#", data-toggle="dropdown")
+								| About
+								span.caret
+								ul.dropdown-menu(role="menu")
+									li
+										a.serving(href="/fonhare-wireframe/history") History
+									li
+										a.serving(href="/fonhare-wireframe/mission-vision") Mission
+									li
+										a.serving(href="/fonhare-wireframe/financial") Financial Information
+									li
+										a.serving(href="/fonhare-wireframe/staff") Staff
+									li
+										a.serving(href="/fonhare-wireframe/partners") Partners
+						li.dropdown
+							a.dropdown-toggle(href='#', data-toggle='dropdown', role='button', aria-haspopup='true')
+								| Programs
+								span.caret
+								ul.dropdown-menu
+									li
+										a.serving(href="/fonhare-wireframe/rehabilitation-program") Rehabilitation Program
+									li
+										a.serving(href="/fonhare-wireframe/school-integration-program") School Integration Program
+									li
+										a.serving(href="/fonhare-wireframe/independent-living-program") Independent Living Program
+									li
+										a.serving(href="/fonhare-wireframe/community-access-program") Community Access Program
+									li
+										a.serving(href="/fonhare-wireframe/gender-violence-program") Gender Violence Program
+
+						li.dropdown
+							a.dropdown-toggle(href="#", data-toggle="dropdown") 
+								| Media
+								span.caret
+								ul.dropdown-menu(role="menu")
+									li
+										a.serving(href="/fonhare-wireframe/newsletters") Newsletters
+									li
+										a.serving(href="/fonhare-wireframe/photo-gallery") Photo Gallery
+									li
+										a.serving(href="/fonhare-wireframe/videos") Videos				
+
+						li.dropdown
+							a.dropdown-toggle(href="#", data-toggle="dropdown") 
+								| Get Involved
+								span.caret
+								ul.dropdown-menu(role="menu")
+									li
+										a.serving(href="/fonhare-wireframe/volunteer") Volunteer
+									li
+										a.serving(href="/fonhare-wireframe/sponsor-a-therapist") Sponsor a Therapist
+									li
+										a.serving(href="/fonhare-wireframe/sponsor-a-child") Sponsor a Child
+									li
+										a.serving(href="/fonhare-wireframe/donate") Donate				
+
+
+						li.dropdown
+							a.dropdown-toggle(href="#", data-toggle="dropdown")
+								| Contact
+								span.caret
+								ul.dropdown-menu
+									li
+										a.serving(href="/fonhare-wireframe/contact#haiti") Haiti
+									li
+										a.serving(href="/fonhare-wireframe/contact#usa") USA
+
+						li
+							a.btn.btn-primary.serving(href="/fonhare-wireframe/donate", style="") Donate
+
+					ul.nav.navbar-nav.navbar-right.languages
+						li
+							a(href="#") English
+						li
+							a(href="#") Francais
+						li
+							a(href="#") Espa&ntilde;ol

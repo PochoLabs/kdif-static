@@ -1,0 +1,36 @@
+{
+  "name": "wireframe-fonhare",
+  "version": "0.0.1",
+  "homepage": "http://pocholabs.com",
+  "authors": [
+    "Celso Mireles <celso@digitalstrategy.tips>"
+  ],
+  "description": "A simple wireframing tool using Harp.js",
+  "moduleType": "globals",
+  "main": [
+    "_sass/theme.scss"
+  ],
+    "keywords": [
+      "bootstrap",
+      "underscores",
+      "wordpress",
+      "_s",
+      "sass"
+    ],
+  "license": "GPL-2.0",
+  "ignore": [
+    "**/.*",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-sass": "~3.3.6",
+    "fontawesome": "~4.5.0",
+    "_s": "https://github.com/Automattic/_s.git",
+    "OwlCarousel2": "https://github.com/smashingboxes/OwlCarousel2.git",
+		"foundation-sites": "~6.2.0"
+  },
+  "_source": "https://github.com/holger1411/understrap.git",
+  "_target": "~0.3.8",
+  "_originalSource": "understrap"
+}
