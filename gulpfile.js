@@ -29,7 +29,7 @@ gulp.task('sass', function () {
 });
 
 // Run:
-// gulp nanocss
+// gulp cssnano
 // Minifies CSS files
 gulp.task('cssnano', ['cleancss'], function(){
   return gulp.src('./css/*.css')
@@ -99,17 +99,17 @@ gulp.task('scripts', function() {
 
 gulp.task('copy-assets', function() {
 
-	// Copy all Bootstrap JS files
+	// Copy all Foundation JS files
 	gulp.src(basePaths.bower + 'foundation-sites/js/*.js')
       .pipe(gulp.dest(basePaths.dev + '/js'));
 
-// // Copy all Bootstrap SCSS files
-//     gulp.src(basePaths.bower + 'bootstrap-sass/assets/stylesheets/**/*.scss')
-//        .pipe(gulp.dest(basePaths.dev + '/sass/bootstrap-sass'));
+	// Copy What input
+	gulp.src(basePaths.bower + 'what-input/*.js')
+      .pipe(gulp.dest(basePaths.dev + '/js'));
 
  // Copy all Foundation SCSS files
      gulp.src(basePaths.bower + 'foundation-sites/scss/**/*.scss')
-        .pipe(gulp.dest(basePaths.dev + '/sass/foundation-sites'));
+        .pipe(gulp.dest(basePaths.dev + '/sass/foundation'));
 
 
 // Copy all Font Awesome Fonts

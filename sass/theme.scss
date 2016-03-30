@@ -29,9 +29,8 @@ Import all needed 3rd party sass files plus your own style and variables
 6. theme/theme.scss"; // <-- ADD YOUR STYLES HERE
 ***************************************************************** */
 
-
-@import "theme/theme_variables";  // <--------- Add your variables into this file. Also add variables to overwrite Bootstrap or UnderStrap variables here
-@import "../src/sass/foundation-sites/foundation";
+//
+@import "theme/theme_variables";
 @import "../src/sass/fontawesome/font-awesome";
 @import "../src/sass/owl-carousel2/owl.carousel";
 @import "../src/sass/owl-carousel2/owl.animate";
@@ -39,6 +38,8 @@ Import all needed 3rd party sass files plus your own style and variables
 @import "../src/sass/owl-carousel2/owl.lazyload";
 @import "../src/sass/owl-carousel2/owl.video";
 @import "../src/sass/owl-carousel2/owl.theme.default";
+//@import "../src/sass/foundation/foundation";
+// @import "understrap/understrap";
 
 
 // Any additional imported files //
