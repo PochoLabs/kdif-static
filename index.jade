@@ -1,98 +1,232 @@
-#carousel-example-captions.carousel.slide(data-ride='carousel')
-	ol.carousel-indicators
-		li.active(data-target='#carousel-example-captions', data-slide-to='0')
-		li(data-target='#carousel-example-captions', data-slide-to='1')
-		li(data-target='#carousel-example-captions', data-slide-to='2')
-	.carousel-inner(role='listbox')
-		.item.active
-			img(data-holder-rendered='true', src='https://placehold.it/1600x700', alt='900x500', style="width:100%!important;")
-			.carousel-caption
-				h3 First Slider
-				p Nulla vitae elit libero, a pharetra augue mollis interdum.
-		.item
-			img(data-holder-rendered='true', src='https://placehold.it/1600x700', alt='900x500', style="width:100%!important;")
-			.carousel-caption
-				h3 Second Slide Title
-				p Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-		.item
-			img(data-holder-rendered='true', src='https://placehold.it/1600x700', alt='900x500', style="width:100%!important;")
-			.carousel-caption
-				h3 Third slide label
-				p Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-	a.left.carousel-control(href='#carousel-example-captions', role='button', data-slide='prev')
-		span.glyphicon.glyphicon-chevron-left(aria-hidden='true')
-		span.sr-only Previous
-	a.right.carousel-control(href='#carousel-example-captions', role='button', data-slide='next')
-		span.glyphicon.glyphicon-chevron-right(aria-hidden='true')
-		span.sr-only Next
 
-
+.row
+	.medium-8.columns
+		p
+			img(src='http://placehold.it/900x450&text=Promoted Article', alt='main article image')
+	.medium-4.columns
+		p
+			img(src='http://placehold.it/400x200&text=Other cool article', alt='article promo image')
+		p
+			img(src='http://placehold.it/400x200&text=Other cool article', alt='article promo image')
 hr
-
-div.container-fluid
-	div.row
-		div.col-md-6
-			div.embed-responsive.embed-responsive-16by9
-				iframe.embed-responsive-item(width="560" height="315" src="https://www.youtube.com/embed/YpVVhTdpGiQ" frameborder="0" allowfullscreen)
-		div.col-md-6
-			h1.text-center Welcome to FONHARE!
-			p The Haitian Foundation of Rehabilitation (FONHARE) is a grassroots Haitian non-profit organization dedicated to providing integrated physical and cognitive rehabilitation services to children and youth with disabilities in Haiti, especially those with a poor quality of life living with limited resources regardless their socioeconomic condition. FONHARE is the only organization providing rehab services in the northeast of Haiti to 13 cities with almost 500,000 citizens.
+.row.column
+	h4.text-center(style='margin: 0;') BREAKING NEWS
+hr
+.row.small-up-3.medium-up-4.large-up-5
+	.column
+		img(src='http://placehold.it/400x370&text=Look at me!', alt='image for article')
+	.column
+		img(src='http://placehold.it/400x370&text=Look at me!', alt='image for article')
+	.column
+		img(src='http://placehold.it/400x370&text=Look at me!', alt='image for article')
+	.column.show-for-medium
+		img(src='http://placehold.it/400x370&text=Look at me!', alt='image for article')
+	.column.show-for-large
+		img(src='http://placehold.it/400x370&text=Look at me!', alt='image for article')
+hr
+.row.column
+	h4.text-center(style='margin: 0;') LATEST STORIES
+hr
+.row
+	.large-8.columns(style='border-right: 1px solid #E3E5E8;')
+		article
+			.row
+				.large-6.columns
+					p
+						img(src='http://placehold.it/600x370&text=Look at me!', alt='image for article')
+				.large-6.columns
+					h5
+						a(href='#') 'Death Star' Vaporizes Its Own Planet
+					p
+						span
+							i.fi-torso  By Thadeus   
+						span
+							i.fi-calendar  11/23/16   
+						span
+							i.fi-comments  6 comments
+					p
+						| Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae impedit beatae, ipsum delectus aperiam nesciunt magni facilis ullam.
 			hr
-			a.btn.btn-primary.btn-block.text-center.serving(href="/fonhare-wireframe/donate") DONATE
+			.row
+				.large-6.columns
+					p
+						img(src='http://placehold.it/600x370&text=Look at me!', alt='image for article')
+				.large-6.columns
+					h5
+						a(href='#') NASA's SLS Rocket Sheds Saturn V Color Scheme in Design Review
+					p
+						span
+							i.fi-torso  By Thadeus   
+						span
+							i.fi-calendar  11/23/16   
+						span
+							i.fi-comments  6 comments
+					p
+						| Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae impedit beatae, ipsum delectus aperiam nesciunt magni facilis ullam.
 			hr
-			a.btn.btn-primary.btn-block.text-center.serving(href="/fonhare-wireframe/volunteer") VOLUNTEER
-
-	hr
-	.row
-		.col-lg-12.text-center
-			h2 Your Help is Vital
-			p.lead We need your financial and volunteer support for:
-	.row
-		.col-md-3.col-xs-6
-			img.img-circle.img-center.img-responsive(src="https://placehold.it/200x200&text=image")
-			p.text-center.lead Improving Quality of Life
-		.col-md-3.col-xs-6
-			img.img-circle.img-center.img-responsive(src="https://placehold.it/200x200&text=image")
-			p.text-center.lead Increasing independence
-		.col-md-3.col-xs-6
-			img.img-circle.img-center.img-responsive(src="https://placehold.it/200x200&text=image")
-			p.text-center.lead Reintegrating Into Society
-		.col-md-3.col-xs-6
-			img.img-circle.img-center.img-responsive(src="https://placehold.it/200x200&text=image")
-			p.text-center.lead Transferring Knowledge
-	hr
-	.row
-		.col-lg-12.text-center
-			h2 FONHARE's Impact
-			p.lead By the numbers:
-	.row.stat-row
-		.col-md-2.col-sm-4.col-xs-6
-			p.text-center.lead Patients seen to date
-			p.text-center.stat 25
-		.col-md-2.col-sm-4.col-xs-6
-			p.text-center.lead Number of homes modified
-			p.text-center.stat 32
-		.col-md-2.col-sm-4.col-xs-6
-			p.text-center.lead Number of ramps built
-			p.text-center.stat 45
-		.col-md-2.col-sm-4.col-xs-6
-			p.text-center.lead Students integrated in to school
-			p.text-center.stat 325
-		.col-md-2.col-sm-4.col-xs-6
-			p.text-center.lead Professional Volunteers
-			p.text-center.stat 36
-		.col-md-2.col-sm-4.col-xs-6
-			p.text-center.lead Total Volunteer Hours
-			p.text-center.stat 32532
-	hr
-	.row
-		.col-md-6
-			div.section
-				.section-box
-					h2 Latest Posts
-					p Feed of posts...
-		.col-md-6
-			div.section
-				.section-box
-					h2 Video Highlights
-					p Feed of posts...
+			.row
+				.large-6.columns
+					p
+						img(src='http://placehold.it/600x370&text=Look at me!', alt='image for article')
+				.large-6.columns
+					h5
+						a(href='#') Ingredients for Life Were Always Present on Earth, Comet Suggests
+					p
+						span
+							i.fi-torso  By Thadeus   
+						span
+							i.fi-calendar  11/23/16   
+						span
+							i.fi-comments  6 comments
+					p
+						| Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae impedit beatae, ipsum delectus aperiam nesciunt magni facilis ullam.
+			hr
+			.row
+				.large-6.columns
+					p
+						img(src='http://placehold.it/600x370&text=Look at me!', alt='image for article')
+				.large-6.columns
+					h5
+						a(href='#') Astronaut's Watch Worn on the Moon Sells for Record $1.6 Million
+					p
+						span
+							i.fi-torso  By Thadeus   
+						span
+							i.fi-calendar  11/23/16   
+						span
+							i.fi-comments  6 comments
+					p
+						| Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae impedit beatae, ipsum delectus aperiam nesciunt magni facilis ullam.
+			hr
+			.row
+				.large-6.columns
+					p
+						img(src='http://placehold.it/600x370&text=Look at me!', alt='image for article')
+				.large-6.columns
+					h5
+						a(href='#') Interstellar Dust on the Galaxy's Magnetic Field | Space Wallpaper
+					p
+						span
+							i.fi-torso  By Thadeus   
+						span
+							i.fi-calendar  11/23/16   
+						span
+							i.fi-comments  6 comments
+					p
+						| Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae impedit beatae, ipsum delectus aperiam nesciunt magni facilis ullam.
+			hr
+			.row
+				.large-6.columns
+					p
+						img(src='http://placehold.it/600x370&text=Look at me!', alt='image for article')
+				.large-6.columns
+					h5
+						a(href='#') Explore the Moon (Virtually) with These Awesome Global Maps
+					p
+						span
+							i.fi-torso  By Thadeus   
+						span
+							i.fi-calendar  11/23/16   
+						span
+							i.fi-comments  6 comments
+					p
+						| Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae impedit beatae, ipsum delectus aperiam nesciunt magni facilis ullam.
+			hr
+			.row
+				.large-6.columns
+					p
+						img(src='http://placehold.it/600x370&text=Look at me!', alt='image for article')
+				.large-6.columns
+					h5
+						a(href='#') Best Space Books and Sci-Fi: A Space.com Reading List
+					p
+						span
+							i.fi-torso  By Thadeus   
+						span
+							i.fi-calendar  11/23/16   
+						span
+							i.fi-comments  6 comments
+					p
+						| Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae impedit beatae, ipsum delectus aperiam nesciunt magni facilis ullam.
+			hr
+			ul.pagination(role='navigation', aria-label='Pagination')
+				li.disabled
+					| Previous 
+					span.show-for-sr page
+				li.current
+					span.show-for-sr You're on page
+					|  1
+				li
+					a(href='#', aria-label='Page 2') 2
+				li
+					a(href='#', aria-label='Page 3') 3
+				li
+					a(href='#', aria-label='Page 4') 4
+				li
+					a(href='#', aria-label='Next page')
+						| Next 
+						span.show-for-sr page
+	.large-4.columns
+		aside
+			.row.small-up-3
+				.column.text-center
+					i.fi-social-facebook
+					h6 56,009
+					p
+						small FOLLOWERS
+					br
+				.column.text-center
+					i.fi-social-twitter
+					h6 76,905
+					p
+						small FOLLOWERS
+					br
+				.column.text-center
+					i.fi-social-instagram
+					h6 34,099
+					p
+						small FOLLOWERS
+					br
+				.column.text-center
+					i.fi-social-tumblr
+					h6 13,765
+					p
+						small FOLLOWERS
+				.column.text-center
+					i.fi-social-pinterest
+					h6 9,283
+					p
+						small FOLLOWERS
+				.column.text-center
+					i.fi-social-youtube
+					h6 99,000
+					p
+						small FOLLOWERS
+			br
+			.row.column
+				p.lead FROM OUR FRIENDS
+				p
+					img(src='http://placehold.it/400x300&text=Buy Me!', alt='advertisement of ShamWow')
+			br
+			.row.column
+				p.lead TRENDING POSTS
+				.media-object
+					.media-object-section
+						img.thumbnail(src='http://placehold.it/100')
+					.media-object-section
+						h5 All I need is a space suit and I'm ready to go.
+				.media-object
+					.media-object-section
+						img.thumbnail(src='http://placehold.it/100')
+					.media-object-section
+						h5 Are the stars out tonight? I don't know if it's cloudy or bright.
+				.media-object
+					.media-object-section
+						img.thumbnail(src='http://placehold.it/100')
+					.media-object-section
+						h5 And the world keeps spinning.
+				.media-object
+					.media-object-section
+						img.thumbnail(src='http://placehold.it/100')
+					.media-object-section
+						h5 Cold hearted orb that rules the night.

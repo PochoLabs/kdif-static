@@ -1,14 +1,14 @@
 {
-  "name": "wireframe-fonhare",
+  "name": "kdif-static",
   "version": "0.0.1",
-  "description": "Harp Wireframe Framework",
+  "description": "KDIF Wireframe Framework",
   "main": "",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/PochoLabs/wireframe-fonhare.git"
+    "url": "https://github.com/PochoLabs/kdif-static.git"
   },
   "keywords": [
     "harp",
@@ -20,9 +20,9 @@
   "author": "Celso Mireles",
   "license": "",
   "bugs": {
-    "url": "https://github.com/PochoLabs/wireframe-fonhare.git"
+    "url": "https://github.com/PochoLabs/kdif-static"
   },
-  "homepage": "https://github.com/PochoLabs/wireframe-fonhare.git",
+  "homepage": "https://github.com/PochoLabs/kdif-static",
   "dependencies": {
     "bower": "^1.7.7",
     "gulp": "^3.9.0",
